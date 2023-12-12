@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* home section */
+.home-section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+/* navbar */
+.navbar {
+    background: linear-gradient(to right, #5f7a61e7 0%, #7fc8aad9 100%), url(../image/hero-bg.jpg);
+    font-size: 20px;
+}
+
+.navbar h3 {
+    color: #ffffff;
+    text-align: center;
+    margin: 10px 300px 10px 50px;
+}
+
+.navbar .nav-link {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #5F7A61;
+    border-radius: 5px;
+}
+
+.navbar .nav-link:active {
+    color: #5F7A61;
+    border-radius: 5px;
+}
+
+.dropdown li a {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+
+/* navbar */
+
+/* home content */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+}
+
+.content img {
+    height: 90vh;
+    width: 50px;
+}
+
+.content h3 {
+    margin-left: 70px;
+    font-size: 50px;
+    text-shadow: 4px 3px 1px rgba(0, 0, 0, 0.334);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.content h3 span {
+    font-size: 40px;
+}
+
+.content p {
+    margin-left: 70px;
+    color: #212136;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:800px) {
+    .content h3 {
+        margin-left: 50px;
+        font-size: 40px;
+    }
+
+    .content p {
+        margin-left: 50px;
+    }
+
+    .content #shopnow {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .content h3 {
+        margin-left: 20px;
+    }
+
+    .content p {
+        margin-left: 20px;
+    }
+
+    .content #shopnow {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:799px) {
+    .home-section {
+        height: 150vh;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .home-section {
+        height: 100vh;
+    }
+}
+
+/* home content */
+/* home section */
+
+
+/* product cards */
+.product-cards .card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 10px;
+}
+
+.product-cards h1 {
+    margin-top: 30px;
+    color: #5F7A61;
+    font-weight: bold;
+}
+
+.product-cards h3 {
+    letter-spacing: 3px;
+    color: #5F7A61;
+}
+
+.product-cards h5 span {
+    float: right;
+    color: #5F7A61;
+    cursor: pointer;
+}
+
+.checked {
+    color: rgb(255, 187, 0);
+}
+
+.viewmorebtn {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 30px;
+    width: 200px;
+    height: 32px;
+    color: #5F7A61;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #5F7A61;
+    transition: 0.5s ease;
+}
+
+.viewmorebtn:hover {
+    background-color: #5F7A61;
+    color: white;
+}
+
+/* product cards */
+
+/* description container */
+
+.description h3 {
+    color: #5F7A61;
+    font-weight: bold;
+}
+
+/* end description container */
+
+/* footer */
+.footer {
+    padding: 0 0 30px 0;
+    color: #d0d0d0;
+    font-size: 16px;
+    background: linear-gradient(to right, #5f7a61e7 0%, #7fc8aad9 100%), url(../image/hero-bg.jpg);
+}
+
+
+.footer .copyright {
+    text-align: center;
+    float: left;
+}
+
+.footer .credits {
+    float: right;
+    text-align: center;
+}
+
+/* footer */
+html {
+    scroll-behavior: smooth;
+}
+
+.arrow {
+    position: fixed;
+    background-color: #5F7A61;
+    border-radius: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    align-items: center;
+    line-height: 50px;
+}
+
+/* about */
+#about {
+    margin-top: 50px;
+}
+
+#about h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #5F7A61;
+}
+
+/* about */
+
+/* contact */
+#contact {
+    margin-top: 50px;
+}
+
+#contact h1 {
+    color: #5F7A61;
+    text-shadow: 0px 0px 1px black;
+}
+
+#contact .card {
+    height: 80px;
+    margin-top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#contact .card i {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #5F7A61;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#contact .card h6 {
+    margin-left: 10px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #5F7A61;
+}
+
+#messagebtn button {
+    margin-top: 30px;
+    width: 200px;
+    height: 33px;
+    background: transparent;
+    border: 2px solid #5F7A61;
+    color: #5F7A61;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+}
+
+#messagebtn button:hover {
+    background-color: #5F7A61;
+    color: white;
+}
+
+/* contact */
