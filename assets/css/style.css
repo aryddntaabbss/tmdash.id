@@ -13,7 +13,7 @@
 
 /* navbar */
 .navbar {
-    background: linear-gradient(to right, #5f7a61e7 0%, #7fc8aad9 100%), url(../image/hero-bg.jpg);
+    background: linear-gradient(to right, #ff4268d8 0%, #dc0000e9 100%), url(../image/hero-bg.jpg);
     font-size: 20px;
 }
 
@@ -32,12 +32,12 @@
 }
 
 .navbar .nav-link:hover {
-    color: #5F7A61;
+    color: #0F0F0F;
     border-radius: 5px;
 }
 
 .navbar .nav-link:active {
-    color: #5F7A61;
+    color: #0F0F0F;
     border-radius: 5px;
 }
 
@@ -136,18 +136,19 @@
 
 .product-cards h1 {
     margin-top: 30px;
-    color: #5F7A61;
+    color: #0F0F0F;
     font-weight: bold;
 }
 
-.product-cards h3 {
+
+.product-cards h4 {
     letter-spacing: 3px;
-    color: #5F7A61;
+    color: #0F0F0F;
 }
 
 .product-cards h5 span {
     float: right;
-    color: #5F7A61;
+    color: #0F0F0F;
     cursor: pointer;
 }
 
@@ -158,22 +159,23 @@
 .viewmorebtn {
     display: flex;
     justify-content: center;
+    color: black;
     margin: auto;
     text-decoration: none;
     margin-top: 30px;
     width: 200px;
     height: 32px;
-    color: #5F7A61;
+    color: #0F0F0F;
     letter-spacing: 5px;
     font-weight: bold;
     background: transparent;
-    border: 2px solid #5F7A61;
+    border: 2px solid #0F0F0F;
     transition: 0.5s ease;
 }
 
 .viewmorebtn:hover {
-    background-color: #5F7A61;
-    color: white;
+    background-color: #0F0F0F;
+    color: rgb(139, 139, 139);
 }
 
 /* product cards */
@@ -181,7 +183,7 @@
 /* description container */
 
 .description h3 {
-    color: #5F7A61;
+    color: #0F0F0F;
     font-weight: bold;
 }
 
@@ -190,9 +192,9 @@
 /* footer */
 .footer {
     padding: 0 0 30px 0;
-    color: #d0d0d0;
+    color: #ffffff;
     font-size: 16px;
-    background: linear-gradient(to right, #5f7a61e7 0%, #7fc8aad9 100%), url(../image/hero-bg.jpg);
+    background: linear-gradient(to right, #ff4268d8 0%, #dc0000e9 100%), url(../image/hero-bg.jpg);
 }
 
 
@@ -213,7 +215,7 @@ html {
 
 .arrow {
     position: fixed;
-    background-color: #5F7A61;
+    background-color: #0F0F0F;
     border-radius: 50px;
     height: 50px;
     bottom: 40px;
@@ -231,7 +233,7 @@ html {
 #about h1 {
     text-align: center;
     font-weight: bold;
-    color: #5F7A61;
+    color: #0F0F0F;
 }
 
 /* about */
@@ -242,7 +244,7 @@ html {
 }
 
 #contact h1 {
-    color: #5F7A61;
+    color: #0F0F0F;
     text-shadow: 0px 0px 1px black;
 }
 
@@ -256,7 +258,7 @@ html {
     margin-top: 10px;
     margin-left: 10px;
     font-size: 15px;
-    color: #5F7A61;
+    color: #0F0F0F;
     font-weight: bold;
     letter-spacing: 3px;
 }
@@ -266,24 +268,29 @@ html {
     margin-top: 10px;
     letter-spacing: 3px;
     font-weight: bold;
-    color: #5F7A61;
+    color: #0F0F0F;
 }
 
-#messagebtn button {
+.messagebtn {
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin: auto;
+    text-decoration: none;
     margin-top: 30px;
     width: 200px;
-    height: 33px;
-    background: transparent;
-    border: 2px solid #5F7A61;
-    color: #5F7A61;
+    height: 32px;
+    color: #0F0F0F;
+    letter-spacing: 5px;
     font-weight: bold;
-    letter-spacing: 3px;
+    background: transparent;
+    border: 2px solid #0F0F0F;
     transition: 0.5s ease;
 }
 
-#messagebtn button:hover {
-    background-color: #5F7A61;
-    color: white;
+.messagebtn:hover {
+    background-color: #0F0F0F;
+    color: rgb(255, 255, 255);
 }
 
 /* contact */
