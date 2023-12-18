@@ -11,16 +11,20 @@
     position: relative;
 }
 
-/* navbar */
+/* Navbar */
 .navbar {
     background: linear-gradient(to right, #ff4268d8 0%, #dc0000e9 100%), url(../image/hero-bg.jpg);
     font-size: 20px;
 }
 
-.navbar h3 {
+.navImg {
+    margin-left: 70px;
+}
+
+.navbar h4 {
     color: #ffffff;
     text-align: center;
-    margin: 10px 300px 10px 50px;
+    margin: 10px 270px 10px 0;
 }
 
 .navbar .nav-link {
@@ -30,24 +34,6 @@
     justify-content: space-between;
     transition: 0.5s ease;
 }
-
-.navbar .nav-link:hover {
-    color: #0F0F0F;
-    border-radius: 5px;
-}
-
-.navbar .nav-link:active {
-    color: #0F0F0F;
-    border-radius: 5px;
-}
-
-.dropdown li a {
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;
-}
-
-
-/* navbar */
 
 /* home content */
 .home {
@@ -140,7 +126,6 @@
     font-weight: bold;
 }
 
-
 .product-cards h4 {
     letter-spacing: 3px;
     color: #0F0F0F;
@@ -206,6 +191,15 @@
 .footer .credits {
     float: right;
     text-align: center;
+
+}
+
+.credits a {
+    color: #ffffff;
+}
+
+.credits a:hover {
+    color: #0F0F0F;
 }
 
 /* footer */
@@ -294,3 +288,49 @@ html {
 }
 
 /* contact */
+
+@media screen and (max-width: 767px) {
+    .navbar h4 {
+        margin: 10px;
+    }
+
+    .navImg {
+        margin-left: 20px;
+    }
+
+    .navbar .nav-link {
+        margin: 0 20px;
+        font-size: 16px;
+        /* Adjust font size for smaller screens */
+    }
+}
+
+/* Add this media query for responsiveness */
+@media screen and (max-width: 767px) {
+    .product-cards .card {
+        width: 95%;
+        /* Set the card width to 100% on smaller screens */
+    }
+
+    .product-cards h1 {
+        margin-top: 15px;
+        /* Adjust margin for smaller screens */
+    }
+
+    .product-cards h4 {
+        font-size: 18px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .product-cards h5 span {
+        font-size: 16px;
+        /* Adjust font size for smaller screens */
+    }
+
+    .viewmorebtn {
+        width: 100%;
+        /* Set button width to 100% on smaller screens */
+        margin-left: 0;
+        /* Remove left margin on smaller screens */
+    }
+}
